@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gopika Lakshmi | AI Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #0f172a, #020617);
+            color: #e5e7eb;
+            scroll-behavior: smooth;
+        }
+
+        /* HERO SECTION */
+        header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+
+        header h1 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: #38bdf8;
+        }
+
+        header h2 {
+            font-size: 1.6rem;
+            margin-top: 10px;
+            color: #c7d2fe;
+        }
+
+        header p {
+            max-width: 600px;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #cbd5f5;
+        }
+
+        /* FLOATING ANIMATION */
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 80px 10%;
+            animation: slideUp 1.5s ease;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.15);
+            transition: transform 0.4s, box-shadow 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 0 40px rgba(56, 189, 248, 0.4);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "⚡";
+            margin-right: 10px;
+            color: #38bdf8;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* LINKS */
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(60px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* RESPONSIVE */
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 2.3rem;
+            }
+            section {
+                padding: 60px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1 class="floating">Gopika Lakshmi Kunchiparthi</h1>
+    <h2>AI Developer</h2>
+    <p>
+        A passionate AI Developer focused on building intelligent systems using
+        Machine Learning, Data Science, and modern AI frameworks.
+    </p>
+</header>
+
+<section>
+    <h3>Profile</h3>
+    <div class="card">
+        I am an aspiring AI Developer with a strong interest in artificial intelligence,
+        machine learning, and data-driven technologies. I enjoy solving real-world problems
+        using AI and continuously enhancing my technical expertise.
+    </div>
+</section>
+
+<section>
+    <h3>Education</h3>
+    <div class="card">
+        <strong>2022 – 2024</strong><br>
+        Sri Chaitanya Junior College, Gudivada
+    </div>
+    <div class="card">
+        <strong>2024 – 2028</strong><br>
+        Seshadri Rao Gudlavalleru Engineering College, Gudlavalleru
+    </div>
+</section>
+
+<section>
+    <h3>Technical Skills</h3>
+    <div class="card">
+        <ul>
+            <li>Python</li>
+            <li>NumPy, Pandas, Matplotlib</li>
+            <li>TensorFlow & PyTorch</li>
+            <li>Math & Statistics</li>
+            <li>Linear Algebra & Probability</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h3>AI Expertise</h3>
+    <div class="card">
+        <ul>
+            <li>Data Science</li>
+            <li>Supervised Learning</li>
+            <li>Unsupervised Learning</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h3>Certifications</h3>
+    <div class="card">
+        Certified by Mentorly team for developing 3 full stack projects in a Hackathon conducted by the respective team.
+    </div>
+</section>
+
+<section>
+    <h3>Projects</h3>
+    <div class="card">
+        <ul>
+            
+            <li><a href="https://campus-connect-lost-found-e45bf592.base44.app" target="_blank">Campus Connect – Lost & Found</a></li>
+            <li><a href="https://phone-hub-c9c2cdfe.base44.app" target="_blank">Phone Hub</a></li>
+            <li><a href="https://binge-finder-movie-d-rxno.bolt.host" target="_blank">Binge Finder Movie App</a></li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h3>Contact</h3>
+    <div class="card">
+        <p><strong>Email:</strong> gopikalakshmi97970@gmail.com</p>
+        <p><strong>Phone:</strong> 6301619161</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kunchiparthi-gopika-lakshmi-0bbbaa324" target="_blank">View Profile</a></p>
+        <p><strong>Portfolio:</strong> <a href="http://127.0.0.1:5500/portofolio.html" target="_blank">View Portfolio</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Gopika Lakshmi | AI Developer Portfolio
+</footer>
+
+<script>
+    // Welcome alert on page load
+    window.onload = function () {
+        alert("Welcome to Gopika Lakshmi's AI Developer Portfolio 🚀");
+    };
+
+    // Alert when user clicks project links
+    const projectLinks = document.querySelectorAll('section a');
+    projectLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            alert('Opening project in a new tab 🔗');
+        });
+    });
+
+    // Alert on copy email
+    function copyEmail() {
+        navigator.clipboard.writeText('gopikalakshmi97970@gmail.com');
+        alert('Email copied to clipboard 📧');
+    }
+</script>
+
+</body>
+</html>
